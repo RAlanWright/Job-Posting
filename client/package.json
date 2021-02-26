@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RAlanWright/pet-adoption.git"
+    "url": "git+https://github.com/RAlanWright/Job-Posting.git"
   },
   "eslintConfig": {
     "extends": "react-app"

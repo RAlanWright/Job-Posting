@@ -26,7 +26,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RAlanWright/pet-adoption.git"
+    "url": "git+https://github.com/RAlanWright/Job-Posting.git"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
