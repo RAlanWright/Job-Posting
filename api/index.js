@@ -1,17 +1,17 @@
-const express = require("express");
+const express = require('express');
 const app = express();
 const port = 3001;
 
-var redis = require("redis"),
-  client = redis.createClient();
+var redis = require('redis'),
+    client = redis.createClient();
 
-const { promisify } = require("util");
+const { promisify } = require('util');
 const getAsync = promisify(client.get).bind(client);
 
-app.get("/jobs", async (req, res) => {
-  const jobs = await getAsync("github");
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-  return res.send(jobs);
+app.get('/jobs', async (req, res) => {
+    const jobs = await getAsync('github');
+    res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
+    return res.send(jobs);
 });
 
 // eslint-disable-next-line no-console
