@@ -65,7 +65,7 @@ export default function Jobs({ jobs }) {
             <MobileStepper
                 variant="progress"
                 steps={numPages}
-                position="static"
+                position="bottom"
                 activeStep={activeStep}
                 nextButton={
                     <Button
