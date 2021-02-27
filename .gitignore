@@ -7,11 +7,8 @@ coverage/
 .env
 .secret-*
 
-# testing
-/coverage
-
 # production
-/build
+build/
 
 # misc
 .DS_Store
